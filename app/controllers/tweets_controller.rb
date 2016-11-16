@@ -15,6 +15,7 @@ class TweetsController < ApplicationController
   end
 
   def create
+    # binding.pry
     tweet = Tweet.new(tweet_params)
     tweet.content ||= Faker::Lorem.sentence
     tweet.username ||= Faker::Name.name

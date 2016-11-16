@@ -9,6 +9,7 @@ require "action_controller/railtie"
 require "action_mailer/railtie"
 require "action_view/railtie"
 require "sprockets/railtie"
+require 'pry'
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
